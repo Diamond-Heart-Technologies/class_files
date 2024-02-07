@@ -30,7 +30,10 @@ Git: https://www.atlassian.com/git/glossary#commands
         - git checkout 
     - create a branch and check into it
         - git branch -d branch_name
-7. pushing from a branch for the first time
+    - pushing from a new branch for the first time
+        - git push -u origin branch_name
+    - consequent pushes
+        - git push
 8. git checkout
 8. git merge
 9. pulling from a branch
