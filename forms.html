@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Forms</h1>
+    <p>
+      HTML Forms: Creating basic forms with input fields, buttons, and labels.
+      Exploring form types(date, email, number). Understanding form elements
+      like textboxes, radio buttons, and checkboxes. Form validation using HTML
+      attributes. &lt;
+    </p>
+
+    <hr />
+
+    <h2>Basic Form</h2>
+    <form>
+      <!-- name, email, password, file, dropdown, checkbox, radio, button(variations of buttons) -->
+
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" placeholder="please enter your name" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required />
+      </div>
+
+      <div>
+        <div>
+          <label for="password">Password:</label>
+        </div>
+        <input type="password" maxlength="5" minlength="3" />
+      </div>
+
+      <div>
+        <label for="phonenum">Phone Number:</label>
+        <input type="file" />
+      </div>
+
+      <div>
+        <label for="message">Message:</label>
+        <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+      </div>
+      <!-- 
+      <div>
+        <label for="gender">Male</label>
+        <input type="checkbox" name="male" id="" />
+        <label for="gender">Female</label>
+        <input type="checkbox" name="female" id="" />
+      </div> -->
+
+      <div>
+        <label for="gender">Male</label>
+        <input type="radio" name="male" id="" />
+        <label for="gender">Female</label>
+        <input type="radio" name="female" id="" />
+      </div>
+
+      <button type="submit">Submit</button>
+      <input type="button" value="submit" />
+    </form>
+  </body>
+</html>

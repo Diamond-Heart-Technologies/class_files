@@ -1,0 +1,29 @@
+Command Line
+- pwd: present working directory
+- ls
+    - ls -a: list all files and folders including the hidden ones
+    - ls -l: list all the information of all the files and folders in a particular directory/folder including all of their information.
+    - ls -la: list all the information of all the files and folders in a particular directory/folder including the hidden ones with all of their information.
+- cd: change directory
+    - cd .. (goes up one level, i.e going back to the previous folder)
+- mkdir: make directory. To create a folder. "mkdir folder_name"
+- touch: used in creating files. When creating files, always remember to add their extensions. "touch file_name"
+- rm: basically to delete files -> "rm file_name". to delete a folder with content -> "rm -r folder_name"
+- rmdir: delete an empty folder/directory => "rmdir folder_name"(this command is for folders without content).
+- cp: for copying files and folders.
+    to copy a file -> "cp file_name directory_to_copy_to"
+    to copy a folder -> "cp -r folder directory_to_copy_to"
+- mv: for moving files and folders. We can also use it to rename files and folders
+    For Moving Files and Folders:
+    to move a file -> "mv file_name directory_to_move_to"
+    to move a folder -> "mv -r folder directory_to_move_to"
+
+    For Renaming Files and Folders:
+    to rename a file -> "mv old_file_name new_name"
+    to rename a folder -> "mv old_folder_name new_name"
+- clear: clear the terminal
+- advanced filepath in commands
+- chaining Commands
+
+
+"-" is called flag
