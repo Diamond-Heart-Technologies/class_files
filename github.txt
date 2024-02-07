@@ -22,8 +22,14 @@ Git: https://www.atlassian.com/git/glossary#commands
             - sign in with your browser: connects your vscode to your github account
         - consequently, you run "git push"
 3. U: untracked/A: staged/M: modified
-7. git status
-6. git branch(creating branching)
+4. git status: tells us the state of our project whether it is being tracked, staged, commited or untracked
+5. creating a branch and checking out into it:
+    - create a branch
+        - git branch branch_name
+    - checkout into the branch
+        - git checkout 
+    - create a branch and check into it
+        - git branch -d branch_name
 7. pushing from a branch for the first time
 8. git checkout
 8. git merge
