@@ -5,15 +5,22 @@ Git: https://www.atlassian.com/git/glossary#commands
     - git config --global user.email "your_email@example.com"
 
 2. Using git in your project
-    - initialize an empty git repository. This is done for every new project:
+    - initialize an empty git repository. This is done once for every new project:
         - git init
-    - stage your changes:
+    - stage your changes every time you are done with a portion of work:
         - git add . or git add -A
-    - commit your changes:
+    - commit your changes every time you stage your work(git add .), this saves your work to the local repository:
         - git commit -m "your commit message"
+    - create a repository on github
+    - connect the local repository to the remote repository:
+        - git remote add origin REMOTE-URL
     - push your changes:
-        - for the first time, 
-2. Keywords: repo, add, ....
+        - for the first time, "git push -u origin master"
+        - you will get an authentication pop up, you can choose token or sign in with your browser
+            - token: it has expiry date and you will have to create it every time it expires.
+                - profile_pix > settings > developer settings > personal access token > generate new token
+            - sign in with your browser: connects your vscode to your github account
+3. U: untracked/A: staged/M: modified
 4. git add
 5. git commit
 6. git push for the first time and consequently
@@ -25,7 +32,8 @@ Git: https://www.atlassian.com/git/glossary#commands
 9. pulling from a branch
 10. clone
 11. fork
-12. conflict: Advanced git
+12. .gitignore file
+13. conflict: Advanced git
 
 
 
