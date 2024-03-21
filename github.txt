@@ -6,9 +6,9 @@ Git: https://www.atlassian.com/git/glossary#commands
 
 2. Using git in your project
     - initialize an empty git repository. This is done once for every new project:
-        - git init
+        - "git init"
     - stage your changes every time you want to track new changes to your work:
-        - git add . or git add -A
+        - "git add ." or "git add -A"
     - commit your changes every time you stage your work(git add .), this saves your work to the local repository:
         - git commit -m "your commit message"
     - create a repository on github. this happens only once
@@ -21,13 +21,16 @@ Git: https://www.atlassian.com/git/glossary#commands
                 - profile_pix > settings > developer settings > personal access token > generate new token
             - sign in with your browser: connects your vscode to your github account
         - consequently, you run "git push"
-3. U: untracked/A: staged/M: modified
+
+3. U: untracked / A: staged / M: modified
+
 4. git status: tells us the state of our project whether it is being tracked, staged, commited or untracked
+
 5. creating a branch and checking out into it:
     - create a branch
         - git branch branch_name
     - checkout into the branch
-        - git checkout 
+        - git checkout branch_name
     - create a branch and check into it
         - git branch -d branch_name
     - pushing from a new branch for the first time
