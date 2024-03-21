@@ -55,6 +55,7 @@ Git: https://www.atlassian.com/git/glossary#commands
 11. fork
 12. .gitignore file
 13. conflict: Advanced git
+14. creating pull request: Advanced git
 
 
 
