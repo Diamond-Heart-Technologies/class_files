@@ -50,7 +50,8 @@ Git: https://www.atlassian.com/git/glossary#commands
         - git pull (fetch + merge)
 8. git merge
 9. pulling from a branch
-10. clone
+10. clone:
+    - git clone url
 11. fork
 12. .gitignore file
 13. conflict: Advanced git
