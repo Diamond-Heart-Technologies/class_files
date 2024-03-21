@@ -32,11 +32,12 @@ Git: https://www.atlassian.com/git/glossary#commands
     - checkout into the branch
         - git checkout branch_name
     - create a branch and check into it
-        - git branch -d branch_name
+        - git checkout -b branch_name
     - pushing from a new branch for the first time
         - git push -u origin branch_name
     - consequent pushes
         - git push
+
 6. merge branches and bring them upto date with each other
     - get into the branch you want to merge into. For example, I want to to merge a branch called - "new branch" into the "master" branch, I will have to checkout into the master branch and then run the command:
         - git merge new_branch
